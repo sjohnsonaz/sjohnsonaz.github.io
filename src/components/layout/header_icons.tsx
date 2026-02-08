@@ -1,4 +1,4 @@
-import { GitHub } from "@mui/icons-material";
+import { GitHub, LinkedIn } from "@mui/icons-material";
 import { Box, IconButton } from "@mui/material";
 
 export const HeaderIcons = () => {
@@ -10,6 +10,13 @@ export const HeaderIcons = () => {
         target="_blank"
       >
         <GitHub />
+      </IconButton>
+      <IconButton
+        LinkComponent="a"
+        href="https://www.linkedin.com/in/sjohnsonaz"
+        target="_blank"
+      >
+        <LinkedIn />
       </IconButton>
     </Box>
   );

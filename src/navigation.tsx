@@ -2,7 +2,7 @@ import { Build, Home, Info, Lightbulb } from "@mui/icons-material";
 
 export const navigation = [
   { title: "Sean Johnson", href: "/", icon: <Home /> },
-  { title: "About me", href: "/about" },
+  { title: "Resume", href: "/resume" },
   { title: "Blog", href: "/blog" },
 ];
 
