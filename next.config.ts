@@ -3,7 +3,7 @@ import createMDX from "@next/mdx";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  // reactCompiler: true,
+  reactCompiler: true,
 
   /**
    * Enable static exports.
