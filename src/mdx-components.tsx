@@ -67,7 +67,10 @@ const components = {
   },
   a: ({ children, href }) => {
     const external =
-      href.startsWith("https://") || href.startsWith("http://") || false;
+      href.startsWith("https://") ||
+      href.startsWith("http://") ||
+      href.endsWith(".pdf") ||
+      false;
     return (
       <LinkLink href={href} target={external ? "_blank" : undefined}>
         {children}
