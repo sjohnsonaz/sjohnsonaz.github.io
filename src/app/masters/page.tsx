@@ -4,7 +4,7 @@ import { AppPage, appTitle } from "@/components";
 
 import Masters from "./masters.mdx";
 
-const title = "Master's Thesis";
+const title = "A Smoothing Algorithm for the Dual Marching Tetrahedra Method";
 
 export const metadata: Metadata = {
   title: appTitle(title),
